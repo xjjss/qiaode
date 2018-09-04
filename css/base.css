@@ -1,19 +1,125 @@
-.qd_top{
-    height: 70px;overflow: hidden;
+.qd_top {
+    height: 70px;
+    overflow: hidden;
 }
 
-.qd_inner{
-    width: 1200px;overflow:hidden;margin:0 auto;
+.qd_inner {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
-.qd_logo{width: 120px;height: auto;float:left;
+.qd_logo {
+    width: 100px;
+    height: auto;
+    float: left;
     /*background: url(../images/logo.png) no-repeat;
     background-size: 100% 100%;*/
 }
 
+.qd_nav {
+    height: auto;
+    float: right;
+}
 
+.qd_navul {
+    display: block;
+    overflow: hidden;
+    margin-top: 15px;
+}
 
+.qd_navli {
+    display: block;
+    float: left;
+    width: auto;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+}
 
+.qd_navli a {
+    display: block;
+    height: 100%;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.qd_navli.active a {
+    background: #1e4580;
+    color: #fff;
+}
+
+.qd_navli:hover a {
+    background: #1e4580;
+    color: #fff;
+}
+
+.footer {
+    height: auto;
+    overflow: hidden;
+    background: #2a2a2a;
+}
+
+.ft_alis {
+    width: 20%;
+    overflow: hidden;
+    float: left;
+}
+
+.ft_li {
+    margin-top: 3px;
+    display: block;
+}
+
+.ft_li a {
+    font-size: 14px;
+    color: #919191;
+}
+
+.ft_li.bigTit a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer_a {
+    overflow: hidden;
+    margin: 50px 50px 20px 50px;
+}
+
+.footer_b {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-right: 210px;
+    margin-top: 50px;
+}
+
+.footer_tel {
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer_ewm {
+    display: block;
+    float: right;
+    width: 60px;
+    height: 60px;
+    background: url(../images/ewm.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.footer_c {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #919191;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 
 
