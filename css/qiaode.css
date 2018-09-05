@@ -1,0 +1,310 @@
+@font-face {
+
+    font-family: Bold1;
+    src: url("../Fonts/SourceHanSansCN-Bold.eot");
+    src: url("../Fonts/SourceHanSansCN-Bold.eot?#iefix") format('embedded-opentype');
+    src: url("../Fonts/SourceHanSansCN-Bold.ttf") format('truetype');
+}
+
+@font-face {
+
+    font-family: ExtraLight;
+    src: url("../Fonts/SourceHanSansCN-ExtraLight.eot");
+    src: url("../Fonts/SourceHanSansCN-ExtraLight.eot?#iefix") format('embedded-opentype');
+    src: url("../Fonts/SourceHanSansCN-ExtraLight.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Light1;
+    src: url("../Fonts/SourceHanSansCN-Light.eot");
+    src: url("../Fonts/SourceHanSansCN-Light.eot?#iefix") format('embedded-opentype');
+    src: url("../Fonts/SourceHanSansCN-Light.ttf") format('truetype');
+}
+
+@font-face {
+
+    font-family: Medium1;
+    src: url("../Fonts/SourceHanSansCN-Medium.eot");
+    src: url("../Fonts/SourceHanSansCN-Medium.eot?#iefix") format('embedded-opentype');
+    src: url("../Fonts/SourceHanSansCN-Medium.ttf") format('truetype');
+}
+
+@font-face {
+
+    font-family: Normal1;
+    src: url("../Fonts/SourceHanSansCN-Normal.eot");
+    src: url("../Fonts/SourceHanSansCN-Normal.eot?#iefix") format('embedded-opentype');
+    src: url("../Fonts/SourceHanSansCN-Normal.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("../Fonts/SourceHanSansCN-Regular.eot");
+    src: url("../Fonts/SourceHanSansCN-Regular.eot?#iefix") format('embedded-opentype');
+    src: url("../Fonts/SourceHanSansCN-Regular.ttf") format('truetype');
+}
+
+.qd_banner {
+    width: 100%;
+    height: 500px;
+    background: url("../images/top-bg.jpg") no-repeat bottom center;
+    background-size: cover;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-align: center;
+    position: relative;
+}
+
+.qd_banner .apply_entry {
+    width: 160px;
+    height: 50px;
+    background: #5f80ab;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 286px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.qd_banner .apply_entry a {
+    color: #fff;
+}
+
+.qd_banner .arrowDown {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.qd_inner .qd_about {
+    margin-top: 60px;
+}
+
+.qd_inner .qd_about h3 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #000;
+    line-height: 42px;
+}
+
+.qd_inner .qd_about .info {
+    width: 100%;
+    font-size: 20px;
+    font-family: Normal1;
+    text-align: left;
+    color: #777;
+    line-height: 34px;
+}
+
+.qd_inner .qd_about .info .pic {
+    text-align: center;
+}
+
+.qd_inner .qd_about .info .list {
+    margin-top: 10px;
+    margin-left: -126px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.qd_inner .qd_about .info .list li {
+    width: 316px;
+    float: left;
+    margin-left: 126px;
+    color: #777777;
+}
+
+.item .picture, .item .text {
+    width: 600px;
+    height: 371px;
+    float: left;
+    font-size: 20px;
+    color: #777;
+}
+
+.item .picture img {
+    width: 600px;
+    height: 371px;
+}
+
+.item .text {
+    width: 520px;
+    height: 291px;
+    line-height: 32px;
+    padding: 40px;
+}
+
+.item .check {
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    background: #5f80ab;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.item .check a {
+    color: #fff;
+}
+
+.team {
+    height: 631px;
+    background: url("../images/index-tdfc.jpg") no-repeat;
+}
+
+.team-info {
+    font-size: 20px;
+    color: #777;
+}
+
+.team-info h3 {
+    padding-top: 60px;
+}
+
+.team-info p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team-list {
+    margin-left: -32px;
+    margin-top: 44px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.team-list li {
+    width: 276px;
+    height: 398px;
+    float: left;
+    margin-left: 32px;
+    position: relative;
+}
+
+.team-list li img {
+    width: 276px;
+    height: 398px;
+}
+
+.team-list li i {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    z-index: 10;
+}
+
+.team-list li b {
+    width: 100%;
+    height: 100px;
+    background: #5f80ab;
+    position: absolute;
+    left: 0;
+    bottom: -90px;
+    z-index: 5;
+}
+
+.chuangtou {
+    width: 100%;
+    height: 500px;
+    background: url("../images/index-bottomBg.jpg") no-repeat bottom center;
+    margin-top: 60px;
+}
+
+.chuangtou .info {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.chuangtou .info h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 80px;
+}
+
+.chuangtou .info p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/*----------------------index-apply------------------------*/
+
+.apply_bg {
+    width: 100%;
+    height: 635px;
+    background: url("../images/top-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.apply_info {
+    padding: 30px;
+    width: 240px;
+    margin-top: 140px;
+    background: #fff;
+    float: right;
+    margin-right: 40px;
+}
+
+.apply_info .title {
+    width: 100%;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.apply_info .common-input {
+    width: 240px;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid #808080;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #808080;
+}
+
+.apply_info .apply_btn {
+    width: 100%;
+    height: 50px;
+    background: #5f80ab;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}

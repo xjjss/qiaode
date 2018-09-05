@@ -9,13 +9,18 @@ aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, 
     background: transparent;
 }
 
-body{overflow: hidden;}
 body,input, textarea {
     font-family: "微软雅黑";
 }
 
 article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary {
     display: block;
+}
+
+input, button, select, textarea {
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 ul {
@@ -39,12 +44,14 @@ input, select {
     vertical-align: middle;
 }
 
-.clear {
-    clear: both;
-}
+
 
 textarea {
     font-family: "微软雅黑";
     color: #333;
     padding: 0px;
 }
+
+
+.clearfix{zoom:1}
+.clearfix:after{display:block;content:'';height:0;clear:both}
