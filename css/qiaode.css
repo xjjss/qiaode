@@ -357,9 +357,10 @@
 
 .news_banner{ width: 100%; height: 400px; background: url("../images/news-top.jpg") no-repeat bottom center;}
 .news_list{ padding-left: 20px;}
-.news_list li{ width:900px; height: 140px; background: #fff; margin-top: 40px;}
+.news_list li{width: 900px;height: 140px;background: #fff;margin-top: 40px; cursor: pointer;}
+.news_list li.cur{box-shadow:0px 0 10px #5f80ab}
 .news_list li .news_date{ width: 150px; padding:28px 0; float:left; background: #5f80ab; font-size: 30px; color:#fff; text-align: center;}
-.news_list li .news_info{ width:648px; height: 138px; border: 1px solid #b2b1b2; border-left:none; float:left; padding-left: 30px; padding-right: 60px; font-size: 18px; color:#231815; text-align: left; font-weight: normal;}
+.news_list li .news_info{width: 659px;height: 138px;border: 1px solid #b2b1b2;border-left:none;float:left;padding-left: 30px;padding-right: 60px;font-size: 18px;color:#231815;text-align: left;font-weight: normal;}
 .news_list li .news_info h3{ font-size: 24px; margin-top: 16px;}
 .news_list li .news_info .text{ margin-top: 20px;}
 
@@ -394,6 +395,25 @@
 .service_list li .txt p{ line-height: 24px; margin-top: 10px;}
 
 
+/*-----------------团队合作-----------------------*/
+
+.team_banner{width:100%; height:400px; background: url('../images/team-top.jpg') no-repeat  top center; }
+.team-entry{ margin-top: 20px; margin-left: -44px; display: inline-block; *display:inline; *zoom:1;}
+.team-entry li{ width: 368px; float:left; margin-left: 44px; }
+.team-entry li .team_office{ width: 332px; padding: 20px; min-height: 178px; border: 1px solid #777; line-height: 24px; font-size: 16px; color:#787878; display: inline-block; *display:inline; *zoom:1; position: relative;}
+.team-entry li .team_office i{ width:50px; height: 50px; position: absolute; bottom:-25px; left: 50%;  margin-left: -25px;}
+.team-entry li .team_office i img{ width: 50px; height:50px;}
+.team-entry li .team_office.cur{ background: #5f80ab; color:#fff;}
+.team-entry li .team_job{ width:100%;font-size: 24px; text-align: center; color:#1e4580; margin-top:50px;display: inline-block; *display:inline; *zoom:1;}
+.team-entry li .team_job i{ font-size: 16px; font-style: normal;}
+.joint{ width: 700px; margin-left: 20px;}
+.joint li{ width: 100%; border-left:28px solid #5f81a7;margin-top: 40px; position: relative;}
+.joint li .joint_title{ width: 100%; font-size:18px; height:30px; color:#1e4580; text-indent: 30px; display: inline-block; *display:inline; *zoom:1;}
+.joint li em{ font-size: 30px; color:#fff; position: absolute; top:-9px; left:-23px; font-style: normal; cursor: pointer}
+.joint li .joint_info{ padding:10px 30px;border-bottom:3px solid #5f81a7; font-size: 16px; color:#777777; line-height: 24px; display: none;}
+
+
+
 /*-----------------联系我们-----------------------*/
 
 .contact_banner{width:100%; height:400px; background: url('../images/contact_bg.jpg') no-repeat  top center; }
@@ -402,3 +422,19 @@
 .contact_way p{ margin-top: 40px;}
 .contact_map{ width: 600px; float:right;}
 .contact_map img{ width: 600px; height: 387px;}
+
+.contact_apply{padding:20px 200px; width: 780px; margin-left:10px; display: inline-block; *display:inline; *display:inline;box-shadow:-2px 0 10px #e6eaf1,
+3px 0 10px #5f80ab,
+0 -2px 10px #e6eaf1,
+0 3px 10px #5f80ab;
+    margin-top:50px;
+}
+
+.contact_apply h3{ line-height: 40px;  color:#231815; font-size: 24px; text-align: center;}
+.contact_apply  p{ font-size: 18px; text-align: center; line-height: 32px;}
+.contact_apply .info{ width:600px; margin: 0 auto; overflow: hidden; }
+.contact_apply .info .message {width:248px; height: 40px; line-height: 40px; padding-left: 10px; font-size: 16px; border: 1px solid #959494; float:left; margin-left: 30px; margin-top: 30px; color:#989898;}
+.contact_apply .contact_btn{ width: 140px; height: 40px; margin: 0 auto; line-height: 40px; background: #5f80ab; margin-top: 30px;  text-align: center; color:#fff; border-radius: 20px; cursor: pointer;}
+
+
+
